@@ -4,22 +4,25 @@
     <div id="header-top-block">
         <!-- Список с навигацией -->
         <ul id="header-top-menu">
-            <li>Ваш город - <span>Москва</span></li>
+            <li>Ваш город - <span class="cursor-pointer">Москва</span></li>
             <li><a href="o-nas.php"> О нас </a></li>
             <li><a href="shop.php"> Магазины </a></li>
             <li><a href="contacts.php"> Контакты </a></li>
         </ul>
+
         <!-- Вход и регистрация -->
         <p id="reg-auth-title">
             <a href="auth.php" class="top-auth">Вход</a>
             <a href="register.php" class="top-register">Регистрация</a>
         </p>
     </div>
+
     <!-- Линия -->
-    <div id="top-line">
-    </div>
+    <div id="top-line"></div>
+
     <!-- Логтип -->
     <img  id="img-logo" src="/img/logo.png" alt="логотип">
+
     <!-- Информационный блок -->
     <div id="personal-info">
         <p>Звонок бесплатный</p>
@@ -30,6 +33,7 @@
         <p align="right">Суббота,Воскресенье - выходные</p>
         <img src="/img/time-icon.png" alt="часы работы">
     </div>
+
     <!-- Поисковой блок-->
     <div id="block-search">
         <form action="search.php?q=" method="get">
@@ -39,34 +43,35 @@
         </form>
     </div>
 </div>
+
 <!-- Верхнее меню-->
 <div id="top-menu">
     <ul>
         <li>
-            <img src="/img/shop.png">
+            <img src="/img/shop.png" alt="shop">
             <a href="/index.php">Главная</a>
         </li>
         <li>
-            <img src="/img/new-32.png">
+            <img src="/img/new-32.png" alt="new">
             <a href="">Новинки</a>
         </li>
 
         <li>
-            <img src="/img/bestprice-32.png">
+            <img src="/img/bestprice-32.png" alt="bestprice">
             <a href="">Лидеры продаж</a>
         </li>
         <li>
-            <img src="/img/sale-32.png">
+            <img src="/img/sale-32.png" alt="sale">
             <a href="">Распродажа</a>
         </li>
     </ul>
+
     <!-- Корзина -->
     <p id="block-basket">
-        <img src="/img/cart-icon.png">
+        <img src="/img/cart-icon.png" alt="cart">
         <a href="">Корзина пуста</a>
     </p>
-    <!-- Линия отступа -->
-    <div id="nav-line">
 
-    </div>
+    <!-- Линия отступа -->
+    <div id="nav-line"></div>
 </div>

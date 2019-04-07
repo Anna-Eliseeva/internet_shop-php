@@ -1,16 +1,16 @@
 <div id="block-footer">
-    <div id="bottom-line">
+    <div id="bottom-line"></div>
 
+    <div id="footer-phone">
+        <h4>Служба поддержки</h4>
+        <h3>8(950) 717-77-67</h3>
+        <p>
+            Режим работы:<br/>
+            Будние дни: c 9:00 до 18:00<br/>
+            Суббота,Воскресенье - выходные
+        </p>
     </div>
-<div id="footer-phone">
-    <h4>Служба поддержки</h4>
-    <h3>8(950) 717-77-67</h3>
-    <p>
-        Режим работы:<br/>
-        Будние дни: c 9:00 до 18:00<br/>
-        Суббота,Воскресенье - выходные
-    </p>
-</div>
+
     <div class="footer-list">
         <p>Сервис и помощь</p>
         <ul>
@@ -20,6 +20,7 @@
             <li><a href="">Публичная оферта</a> </li>
         </ul>
     </div>
+
     <div class="footer-list">
         <p>О компании:</p>
         <ul>
@@ -29,6 +30,7 @@
             <li><a href="">Контакты</a> </li>
         </ul>
     </div>
+
     <div class="footer-list">
         <p>Навигация</p>
         <ul>
@@ -45,7 +47,10 @@
                     var h=d[g]('body')[0];
                     h.appendChild(s);
                 }})();</script>
-        <div class="pluso" data-background="#ebebeb" data-options="big,square,line,horizontal,counter,theme=04"
-             data-services="vkontakte,odnoklassniki,facebook,twitter,google,moimir,email,print"></div>
+        <div class="pluso"
+             data-background="#ebebeb"
+             data-options="big,square,line,horizontal,counter,theme=04"
+             data-services="vkontakte,odnoklassniki,facebook,twitter,google,moimir,email,print"
+        ></div>
     </div>
 </div>
