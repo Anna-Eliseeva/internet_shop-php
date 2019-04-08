@@ -67,14 +67,14 @@ $productList = $stmt->fetchAll(PDO::FETCH_ASSOC);
                         </p>
 
                         <ul class="reviews-and-counts-grid">
-                            <li><img src="/img/comment-icon.png"></li>
-                            <li><img src="/img/eye-icon.png"></li>
+                            <li><img src="/img/comment-icon.png"><p id="comment">0</p></li>
+                            <li><img src="/img/eye-icon.png"><p id="eye">0</p></li>
                         </ul>
 
                         <a class="add-cart-style-grid"></a>
 
                         <p class="style-price-grid">
-                            <strong></strong>
+                            <strong><?= $product['price'] ?></strong>
                             руб.
                         </p>
 
